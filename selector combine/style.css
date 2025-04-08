@@ -1,0 +1,31 @@
+div{
+    background-color: crimson;
+}
+div{
+    color: cadetblue;
+    font-size: x-large;
+}
+div > p{
+    background-color: blueviolet;
+}
+div + p{
+    padding: 5px;
+    color: coral;
+    background-color: darkorchid;
+}
+div ~ p{
+    font-size: 18px;
+    color: deeppink;
+}
+h3{
+    background-color: gold;
+    color: royalblue;
+}
+h3{
+    background-color: blue;
+    color:chocolate
+}
+.box{
+    padding: 9px;
+    background-color:cornflowerblue
+}

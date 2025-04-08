@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:Arial;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(213, 212, 209);
+}
+.maker{
+    width: fit-content;
+    height: 250px;
+
+    background-color:#05164D;
+    color: white;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius:10px;
+    padding: 10px;
+}
+.maker h2{
+    font-size:1cm;
+    text-align: center;
+}
+.register-link p{
+    font-size: 13px;
+}
+.register-link a{
+    color: white;
+}

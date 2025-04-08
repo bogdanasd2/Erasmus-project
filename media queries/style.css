@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family:monospace;
+}
+header{
+    text-align:center;
+    background-color: dodgerblue;
+    color: burlywood;
+    padding: 10px;
+}
+section{
+    width:100%;
+    background-color: rgb(24, 106, 106);
+    max-width: 1024px;/*maximul de pixel pana unde creste*/
+    padding:10px;
+
+}
+section article{
+    width:80%;
+    margin:0 auto;
+    background-color: cornflowerblue;
+    padding:10px;
+    text-align:justify;
+}
+@media(min-width:640px){ /*for screen resolution*/
+    h1{
+        background-color: rgb(72, 107, 222);
+        color: rgb(179, 194, 71);
+        font-size: 3cm;
+    }
+}

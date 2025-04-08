@@ -1,0 +1,39 @@
+p:hover{
+    color: forestgreen;
+    font-size: xx-small;
+}
+input:focus{
+    padding: 5px;
+    background-color: darkkhaki;
+    font-size: 1.5cm;
+    color: darksalmon;
+}
+div{
+    width: 100%;
+    background-color: darkslateblue;
+    color: deepskyblue;
+    padding: 5px;
+}
+div p:nth-child(3){
+    font-size: italic;
+    font-weight: bold;
+    color: darkslategrey;
+}
+p::first-letter{
+    color: chartreuse;
+    background-color: black;
+    font-size: xx-large ;
+}
+p::first-line{
+    color: gainsboro;
+}
+p::before{
+    content:"💔";
+}
+p::after{
+    content:"🌹";
+}
+::placeholder{
+    color: aquamarine;
+    padding: 10px;
+}

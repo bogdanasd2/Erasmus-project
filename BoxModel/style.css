@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+h1{
+    background-color: blue;
+    padding: 5px 10px 5px 10px; /*top right bottom left*/
+    margin: 10px 10px 10px 10px;
+    border:10px solid rgb(109, 202, 43);
+}
+.container{
+    width: 200px;
+    height: 200px;
+    background-color: darkcyan;
+    color:brown;
+    padding: 10px;
+    border: 9px solid black;
+    border-radius: 15px 9px 20px 14px; /*rotunjeste colturile cutiei border-radius: 50%; pt cerc */
+    box-shadow: 5px 10px 7px darkblue;/*umbra*/
+}
+a{
+    display: inline-block;
+    background-color: chocolate;
+    margin-top: 10px;
+    padding: 5px;
+    width: 100px;
+    
+}
+button{
+    width:100px;
+    margin: 10px;
+    padding: 5px;
+    background-color: darkseagreen;
+    border: none;
+}

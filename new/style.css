@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html{
+    font-family: monospace;
+    font-size: 17px;
+}
+header{
+    position:fixed; /*header remains fixed on top*/
+    background-color:darkblue;
+    color: darkmagenta;
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: end;
+    align-items: center;
+    z-index: 100;
+}
+header h1{
+    width: 40%;
+    margin-left: 5px;
+    font-size:0.9cm;
+}
+header nav{
+    width:75%;
+    padding: 10px;
+}
+header h1::before{
+    content:"🧑‍🦼‍➡️"
+}
+header nav ul{
+    list-style: armenian;
+    display: flex;
+    justify-items: end;
+}
+header nav ul li{
+    margin: 0px 5px;
+}
+.hero{
+    position: relative;
+    top: 100px;
+    width: 100%;
+}
+.hero figure{
+    width: 100%;
+    margin: auto;
+}
+.hero figure img{
+    width:100%;
+}
+.hero .text{
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    color:wheat;
+    text-align: center;
+}
+.hero .text h3{
+    font-size: 1.1cm;
+}
+.blog{
+    width:100%;
+    padding: 10px;
+    background-color: cyan;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.blog article{
+    width: 80%;
+    margin: 10px 0px;
+    padding: 10px;
+    border:1px solid rgb(247, 31, 31);
+    border-radius: 5px;
+}
+.codinglanguage{
+    
+    background-color:black;
+    color:orangered;
+    width:100%;
+    margin: 0px;
+    padding: 5px;
+}
+.codinglanguage ul{
+    margin: 15px;
+    list-style: circle;
+    padding: 5px;
+}
+.codinglanguage ul h3{
+    position: sticky;
+    top: 20px;
+    background-color: orangered;
+    color:black;
+    padding:5px;
+    margin-bottom:10px;
+}

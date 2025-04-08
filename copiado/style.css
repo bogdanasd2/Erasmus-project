@@ -1,0 +1,36 @@
+*{
+    margin: 20px;
+    padding: 10px;
+    box-sizing: border-box;   
+}
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    height: auto;
+    background-color: darksalmon;
+
+}
+.item{
+    width:auto;
+    height: 250px;
+    background-color: khaki;
+    color: antiquewhite;
+    margin: 15px;
+    padding: 10px;
+    overflow: hidden;/*scroll inloc de hidden pentru acelasi efect*/
+    border-radius:10px;
+    border: 10px solid cornsilk;
+}
+.container .item:nth-child(2){
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+.container .item:nth-child(3){
+    grid-column: 3 / 4;
+    grid-row: 3 / 4;
+}
+.container .item:nth-child(4){
+    grid-column: 4 / 5 ;
+    grid-row: 4 / 5 ;
+}

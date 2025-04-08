@@ -1,0 +1,28 @@
+.title{
+    background-color: yellowgreen;
+    color: darkolivegreen;
+    text-transform:uppercase;
+}
+*{
+    background-color:fuchsia;
+    color: mediumblue;
+
+}
+span{
+    color: teal;
+}
+header{
+    background:yellow;
+    width: 50%;
+    padding: 5px;
+}
+header h1{
+    font-size: 3cm;
+
+}
+header h1 .title{
+    color:firebrick
+}
+span::after{
+    content: "🫃Antonie";
+}

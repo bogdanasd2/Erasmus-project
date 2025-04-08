@@ -1,0 +1,23 @@
+*{
+    background-color: lightsteelblue;
+    font-size: larger;
+    color: navy;
+}
+header{
+    background-color: blueviolet;
+    color: cadetblue;
+    font-family: cursive;
+    font-size: x-large;
+}
+h3{
+    background-color:darkcyan ;
+    color: darkslateblue;
+}
+#description{
+    background-color: darkmagenta;
+    color: dodgerblue;
+    font-size: xx-large;
+}
+#paragraph{
+    color: violet;
+}

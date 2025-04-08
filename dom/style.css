@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+}
+header{
+    background-color: darkgray;
+    color: antiquewhite;
+    font-size: larger;
+    padding:1.7cm;
+}
+header h1 h2 h3{
+    padding: 5px;
+
+}
+section{
+    background-color: cadetblue;
+    padding: 10px;
+}
