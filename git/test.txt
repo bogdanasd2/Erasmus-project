@@ -1,1 +1,17 @@
 Let's connect git with github
+
+initialize local repository
+git init
+
+add all archives and folders in the repository
+git add
+
+save history
+git commit -m "description of the changes"
+
+upload it to github
+git push origin main
+
+sync changes
+git pull origin main //
+git push origin main //
